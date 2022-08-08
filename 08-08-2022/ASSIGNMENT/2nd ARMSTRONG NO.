@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int i, num, r, s = 0;
+    scanf("%d", &i);
+    num = i;
+    while (num != 0) 
+    {
+      r = num % 10;
+      s= r*r*r;
+      num /=10;
+    }
+     if (s == i)
+        printf("ARMSTRONG NUMBER", i);
+     else
+        printf("ARMSTRONG NUMBER", i);
+     return 0;
+}
